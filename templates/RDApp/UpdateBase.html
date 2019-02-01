@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Monitoring Home</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <script src="{% static 'js/bootstrap.js'  %}"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-primary">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'index' %}">Home</a>
+          <a class="navbar-brand" href="{% url 'admin:index' %}">Admin</a>
+          {% if user.is_authenticated %}
+          <a class="navbar-brand" href="{% url 'logout' %}">Logout</a>
+          {% else %}
+          <a class="navbar-brand" href="{% url 'RDApp:UpdateHome' %}">Login</a>
+          {% endif %}
+          <a class="navbar-brand" href="{% url 'RDApp:UpdateReg' %}">Register</a>
+    </nav>
+
+    <center>
+    <div class="container">
+      <table style="height: 550px;">
+        <tbody>
+          <tr>
+            <td class="align-baseline"></td>
+            <td class="align-top"></td>
+            <td class="align-middle">
+              <center>
+                <div class="container">
+                  <h1>Please Login</h1>
+                  <form action="{% url 'RDApp:UpdateLoggedIn' %}" method="post">
+                    {% csrf_token %}
+                    <label for="username">Username:</label>
+                    <input type="text" name="username">
+                    <br>
+                    <label for="password">Password:</label>
+                    <input type="password" name="password">
+                    <br>
+                    <input class="btn btn-primary" type="submit" name="" value="Login">
+                  </form>
+
+              </center>
+            </td>
+            <td class="align-bottom"></td>
+            <td class="align-text-top"></td>
+            <td class="align-text-bottom"></td>
+  </div>
+
+    {% block body_block %}
+    {% endblock %}
+
+  </body>
+</html>

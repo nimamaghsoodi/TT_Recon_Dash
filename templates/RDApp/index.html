@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>WELCOME</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+  </head>
+  <body>
+
+    <center>
+
+    <div class="container">
+
+    <table style="height: 650px;">
+      <tbody>
+        <tr>
+          <td class="align-baseline"></td>
+          <td class="align-top"></td>
+          <td class="align-middle">
+
+            <center>
+              <h1>Welcome to TecnoTree Recon Dashboard</h1>
+              <h2>Please choose the portal</h2>
+              <a class="btn btn-primary" role="button" href="{% url 'RDApp:UpdateHome' %}" name='UpdateLink'><font color="white">Recon Update</font></a>
+              <a class="btn btn-primary" role="button" href="{% url 'RDApp:MonitorHome' %}" name='MonitorLink'><font color="white">Monitoring</font></a>
+            </center>
+
+          </td>
+          <td class="align-bottom"></td>
+          <td class="align-text-top"></td>
+          <td class="align-text-bottom"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    </center>
+
+  </body>
+</html>
