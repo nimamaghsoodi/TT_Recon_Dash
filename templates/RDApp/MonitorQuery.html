@@ -17,18 +17,75 @@
           {% if user.is_authenticated %}
           <a class="navbar-brand" href="{% url 'logout' %}">Logout</a>
           {% else %}
-          <a class="navbar-brand" href="{% url 'RDApp:UpdateHome' %}">Login</a>
+          <a class="navbar-brand" href="{% url 'RDApp:MonitorHome' %}">Login</a>
           {% endif %}
     </nav>
 
-    <div class="container">
+    <!-- <br> -->
+
+    <div class="jumbotron">
       <h2>Please choose the query date below:</h2>
       <h4>** The shown results will be recons that are executed after the below specfied date up until now **</h4>
+      <br>
 
       <form action="{% url 'RDApp:MonitorQueryResult' %}" method="post">
         {% csrf_token %}
         <!-- <label for="query_recon_date">Date:</label> -->
-        {{query_date_form.as_p}}
+        <table>
+          {{query_date_form.as_table}}
+        </table>
+        <input class="btn btn-primary" type="submit" name="" value="Results">
+      </form>
+
+    </div>
+
+    <br>
+
+    <div class="jumbotron">
+      <h2>Please choose a user below:</h2>
+      <h4>** The shown results will be recons that are executed by the specified user **</h4>
+      <br>
+
+      <form action="{% url 'RDApp:MonitorQueryResultUser' %}" method="post">
+        {% csrf_token %}
+        <!-- <label for="query_recon_date">Date:</label> -->
+        <table>
+            {{query_user_form.as_table}}
+        </table>
+        <input class="btn btn-primary" type="submit" name="" value="Results">
+      </form>
+
+    </div>
+
+    <!-- <br> -->
+
+    <div class="jumbotron">
+      <h2>Please choose a date period:</h2>
+      <h4>** The shown results will be recons that are executed during the specified time period **</h4>
+      <br>
+
+      <form action="{% url 'RDApp:MonitorQueryResultTimePeriod' %}" method="post">
+        {% csrf_token %}
+        <!-- <label for="query_recon_date">Date:</label> -->
+        <table>
+          {{query_timeperiod_form.as_table}}
+        </table>
+        <input class="btn btn-primary" type="submit" name="" value="Results">
+      </form>
+
+    </div>
+
+    <div class="jumbotron">
+      <h2>Please choose a recon type:</h2>
+      <h4>** The shown results based on the chosen recon type **</h4>
+      <br>
+
+      <form action="{% url 'RDApp:MonitorQueryResultRecType' %}" method="post">
+        {% csrf_token %}
+        <!-- <label for="query_recon_date">Date:</label> -->
+        <table>
+          {{query_rec_type_form.as_table}}
+        </table>
         <input class="btn btn-primary" type="submit" name="" value="Results">
       </form>
 

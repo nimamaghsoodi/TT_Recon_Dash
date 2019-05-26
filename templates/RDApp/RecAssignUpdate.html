@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recon Assigment Home</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <script src="{% static 'js/bootstrap.js'  %}"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-success">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'index' %}">Home</a>
+          <a class="navbar-brand" href="{% url 'admin:index' %}">Admin</a>
+          {% if user.is_authenticated %}
+          <a class="navbar-brand" href="{% url 'logout' %}">Logout</a>
+          {% else %}
+          <a class="navbar-brand" href="{% url 'RDApp:ReconAssign' %}">Login</a>
+          {% endif %}
+    </nav>
+
+
+    <div class="jumbotron">
+
+      <!-- {% if Updated %}
+        <h1>Thanks for updating the info</h1>
+        <h2>Have a nice day</h2>
+
+      {% else %} -->
+
+      <h2>Please fill the form below:</h2>
+      <br>
+      <form action="{% url 'RDApp:RecAssignDone' %}" method="POST">
+        {% csrf_token %}
+        <table>
+          {{rec_assign_form.as_table}}
+        </table>
+
+
+          <input class="btn btn-success" type="submit" name="" value="Update">
+
+        </form>
+
+      <!-- {% endif %} -->
+
+      {% if messages %}
+        <ul class="messages">
+            {% for message in messages %}
+            <li{% if message.tags %} class="{{ message.tags }}"{% endif %}>{{ message }}</li>
+            {% endfor %}
+        </ul>
+      {% endif %}
+
+    </div>
+
+
+
+
+
+  </body>
+</html>

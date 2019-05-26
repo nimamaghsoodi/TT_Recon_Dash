@@ -6,6 +6,7 @@
     <title>Monitoring Home</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <script src="{% static 'js/bootstrap.js'  %}"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
   </head>
   <body>
 
@@ -43,7 +44,9 @@
 
                     <form enctype="multipart/form-data" method="post">
                       {% csrf_token %}
-                      {{user_form.as_p}}
+                      <table>
+                        {{user_form.as_table}}
+                      </table>
                       <input class="btn btn-primary" type="submit" name="" value="Register">
                     </form>
 

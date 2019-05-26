@@ -6,6 +6,7 @@
     <title>Recon Table Updated</title>
     <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
     <script src="{% static 'js/bootstrap.js'  %}"></script>
+    <script src="{% static 'js/jquery.min.js' %}"></script>
   </head>
   <body>
 
@@ -19,10 +20,10 @@
           {% else %}
           <a class="navbar-brand" href="{% url 'RDApp:UpdateHome' %}">Login</a>
           {% endif %}
-          <a class="navbar-brand" href="{% url 'RDApp:UpdateReg' %}">Register</a>
+          <a class="navbar-brand" href="{% url 'RDApp:RecUpdated' %}">Recon Update</a>
     </nav>
 
-    <div class="jumbotron">
+    <div class="jumbotron" align="left">
 
       {% if Updated %}
         <h1>Thanks for updating the info</h1>
@@ -36,29 +37,26 @@
           <!-- {{rec_update_form.as_p}} -->
 
           <div class="fieldWrapper">
-            <label for="ReconTitle">Recon Title</label>
+            <label for="ReconTitle" style="width:100%">Recon Title</label>
+            <br>
             {{ rec_update_form.ReconTitle }}
           </div>
 
           <div class="fieldWrapper">
-            <label for="RespPers">Responsible Person</label>
-            {{ rec_update_form.RespPers }}
-          </div>
-
-          <div class="fieldWrapper">
-            <label for="ReconTotalCount">Recon Total Count</label>
+            <label for="ReconTotalCount" style="width:100%">Recon Total Count</label>
             {{ rec_update_form.ReconTotalCount }}
           </div>
 
           <div class="fieldWrapper">
-            <label for="ReconExecutedCount">Recon Executed Count</label>
+            <label for="ReconExecutedCount" style="width:100%">Recon Executed Count</label>
             {{ rec_update_form.ReconExecutedCount }}
           </div>
 
           <div class="fieldWrapper">
-            <label for="ReconDate">Recon Executed Date</label>
-            {{ rec_update_form.ReconDate }}
+            <label for="ReconComments" style="width:100%">Recon Comments</label>
+            <p>{{ rec_update_form.ReconComments }}</p>
           </div>
+
           <br>
 
           <input class="btn btn-primary" type="submit" name="" value="Update">

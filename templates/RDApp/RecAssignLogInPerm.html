@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Recon Assigment Home</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <script src="{% static 'js/bootstrap.js'  %}"></script>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark bg-success">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="{% url 'index' %}">Home</a>
+          {% if user.is_authenticated %}
+          <a class="navbar-brand" href="{% url 'logout' %}">Logout</a>
+          {% else %}
+          <a class="navbar-brand" href="{% url 'RDApp:ReconAssign' %}">Login</a>
+          {% endif %}
+
+    </nav>
+
+    {% if NotPermitted %}
+
+      <div class="jumbotron">
+        <h1>You don't have the permission to sign into this portal with your credentials</h1>
+        <br>
+        <h2>If you think you should have the access please contact admin</h2>
+      </div>
+
+    {% else %}
+
+      <div class="jumbotron">
+        <h1>Invalid credentials provided!</h1>
+      </div>
+
+    {% endif %}
+
+  </body>
+</html>

@@ -1,0 +1,84 @@
+,DefinedUser,OccuranceNum,UserFullName,UserReconTitle,UserReconType,id
+0,﻿FatemehBozorgi,1,Fatemeh Bozorgi,Active or Pre Active in ABL BAIC in HLR,Weekly,50
+1,FatemehBozorgi,1,Fatemeh Bozorgi,Active or Pre Active in ABL BAOC in HLR,Weekly,51
+2,FatemehBozorgi,1,Fatemeh Bozorgi,Active Starter Pack on HLR,Weekly,52
+3,FatemehBozorgi,1,Fatemeh Bozorgi,DATA SIM - in ABL not in HLR,Weekly,53
+4,FatemehBozorgi,1,Fatemeh Bozorgi,DATA SIM - Active ABL Bar HLR,Weekly,54
+5,FatemehBozorgi,1,Fatemeh Bozorgi,DATA SIM - GPRS Mismatch,Weekly,55
+6,FatemehBozorgi,1,Fatemeh Bozorgi,DATA SIM - HARD Suspend in ABL Active on HLR,Weekly,56
+7,FatemehBozorgi,1,Fatemeh Bozorgi,DATA SIM - Pre Active in ABL Bar on HLR,Weekly,57
+8,FatemehBozorgi,1,Fatemeh Bozorgi,DATA SIM - Soft Suspend ABL Active on HLR,Weekly,58
+9,FatemehBozorgi,1,Fatemeh Bozorgi,GPRS Mismatch,Weekly,59
+10,FatemehBozorgi,1,Fatemeh Bozorgi,Hard Suspend or Awaiting Document in ABL not BAIC in HLR,Weekly,60
+11,FatemehBozorgi,1,Fatemeh Bozorgi,Hard Suspend or Awaiting Document in ABL not BAOC in HLR,Weekly,61
+12,FatemehBozorgi,1,Fatemeh Bozorgi,IMSI in HLR not in ABL,Weekly,62
+13,FatemehBozorgi,1,Fatemeh Bozorgi,IMSI Mismatch,Weekly,63
+14,FatemehBozorgi,1,Fatemeh Bozorgi,MCA Mismatch,Weekly,64
+15,FatemehBozorgi,1,Fatemeh Bozorgi,MSISDN in ABL not in HLR,Weekly,65
+16,FatemehBozorgi,1,Fatemeh Bozorgi,MSISDN in HLR not in ABL,Weekly,66
+17,FatemehBozorgi,1,Fatemeh Bozorgi,MSISDN Mismatch,Weekly,67
+18,FatemehBozorgi,1,Fatemeh Bozorgi,MSISDN in ABL not in HLR-VMS,Weekly,68
+19,FatemehBozorgi,1,Fatemeh Bozorgi,Multi IMSI on HLR - Postpaid,Weekly,69
+20,FatemehBozorgi,1,Fatemeh Bozorgi,Multi IMSI on HLR - Prepaid,Weekly,70
+21,FatemehBozorgi,1,Fatemeh Bozorgi,Type Mismatch Postpaid,Weekly,71
+22,FatemehBozorgi,1,Fatemeh Bozorgi,Type Mismatch Prepaid,Weekly,72
+23,FatemehBozorgi,1,Fatemeh Bozorgi,Roaming in ABL not in HLR Postpaid,Weekly,73
+24,FatemehBozorgi,1,Fatemeh Bozorgi,Roaming in ABL not in HLR Prepaid,Weekly,74
+25,FatemehBozorgi,1,Fatemeh Bozorgi,Roaming in HLR not in ABL Postpaid,Weekly,75
+26,FatemehBozorgi,1,Fatemeh Bozorgi,Roaming in HLR not in ABL Prepaid,Weekly,76
+27,FatemehBozorgi,1,Fatemeh Bozorgi,SMS Mismatch,Weekly,77
+28,FatemehBozorgi,1,Fatemeh Bozorgi,Soft Suspend in ABL BAIC in HLR,Weekly,78
+29,FatemehBozorgi,1,Fatemeh Bozorgi,Soft Suspend in ABL Not BAOC in HLR,Weekly,79
+30,FatemehBozorgi,1,Fatemeh Bozorgi,Prepaid in ABL in HLR not in SDP,Weekly,80
+31,FatemehBozorgi,1,Fatemeh Bozorgi,Prepaid in ABL in SDP Not in HLR,Weekly,81
+32,marzieh.zo,1,Marzeih Zolghadrian,Active or Pre Active in ABL BAIC in HLR,Weekly,82
+33,marzieh.zo,1,Marzeih Zolghadrian,Active or Pre Active in ABL BAOC in HLR,Weekly,83
+34,marzieh.zo,1,Marzeih Zolghadrian,Active Starter Pack on HLR,Weekly,84
+35,marzieh.zo,1,Marzeih Zolghadrian,DATA SIM - in ABL not in HLR,Weekly,85
+36,marzieh.zo,1,Marzeih Zolghadrian,DATA SIM - Active ABL Bar HLR,Weekly,86
+37,marzieh.zo,1,Marzeih Zolghadrian,DATA SIM - GPRS Mismatch,Weekly,87
+38,marzieh.zo,1,Marzeih Zolghadrian,DATA SIM - HARD Suspend in ABL Active on HLR,Weekly,88
+39,marzieh.zo,1,Marzeih Zolghadrian,DATA SIM - Pre Active in ABL Bar on HLR,Weekly,89
+40,marzieh.zo,1,Marzeih Zolghadrian,DATA SIM - Soft Suspend ABL Active on HLR,Weekly,90
+41,marzieh.zo,1,Marzeih Zolghadrian,GPRS Mismatch,Weekly,91
+42,marzieh.zo,1,Marzeih Zolghadrian,Hard Suspend or Awaiting Document in ABL not BAIC in HLR,Weekly,92
+43,marzieh.zo,1,Marzeih Zolghadrian,Hard Suspend or Awaiting Document in ABL not BAOC in HLR,Weekly,93
+44,marzieh.zo,1,Marzeih Zolghadrian,IMSI in HLR not in ABL,Weekly,94
+45,marzieh.zo,1,Marzeih Zolghadrian,IMSI Mismatch,Weekly,95
+46,marzieh.zo,1,Marzeih Zolghadrian,MCA Mismatch,Weekly,96
+47,marzieh.zo,1,Marzeih Zolghadrian,MSISDN in ABL not in HLR,Weekly,97
+48,marzieh.zo,1,Marzeih Zolghadrian,MSISDN in HLR not in ABL,Weekly,98
+49,marzieh.zo,1,Marzeih Zolghadrian,MSISDN Mismatch,Weekly,99
+50,marzieh.zo,1,Marzeih Zolghadrian,MSISDN in ABL not in HLR-VMS,Weekly,100
+51,marzieh.zo,1,Marzeih Zolghadrian,Multi IMSI on HLR - Postpaid,Weekly,101
+52,marzieh.zo,1,Marzeih Zolghadrian,Multi IMSI on HLR - Prepaid,Weekly,102
+53,marzieh.zo,1,Marzeih Zolghadrian,Type Mismatch Postpaid,Weekly,103
+54,marzieh.zo,1,Marzeih Zolghadrian,Type Mismatch Prepaid,Weekly,104
+55,marzieh.zo,1,Marzeih Zolghadrian,Roaming in ABL not in HLR Postpaid,Weekly,105
+56,marzieh.zo,1,Marzeih Zolghadrian,Roaming in ABL not in HLR Prepaid,Weekly,106
+57,marzieh.zo,1,Marzeih Zolghadrian,Roaming in HLR not in ABL Postpaid,Weekly,107
+58,marzieh.zo,1,Marzeih Zolghadrian,Roaming in HLR not in ABL Prepaid,Weekly,108
+59,marzieh.zo,1,Marzeih Zolghadrian,SMS Mismatch,Weekly,109
+60,marzieh.zo,1,Marzeih Zolghadrian,Soft Suspend in ABL BAIC in HLR,Weekly,110
+61,marzieh.zo,1,Marzeih Zolghadrian,Soft Suspend in ABL Not BAOC in HLR,Weekly,111
+62,marzieh.zo,1,Marzeih Zolghadrian,Prepaid in ABL in HLR not in SDP,Weekly,112
+63,marzieh.zo,1,Marzeih Zolghadrian,Prepaid in ABL in SDP Not in HLR,Weekly,113
+64,anita.e,1,Anita Esfahani,Daily Recon between DMS and CBS,Daily,114
+65,anita.e,1,Anita Esfahani,Recon STATUS_REASON_CODE_N betwwen gsm_service_mast and cb_suspended_dtls for B_DCMT reason,Monthly,115
+66,mahdieh.za,1,Mahdieh Zamini,trouble ticket,Daily,116
+67,maziar.raf,1,Maziar Rafaei,Shared Account,Daily,117
+68,maziar.raf,1,Maziar Rafaei,SUSP,Daily,118
+69,maziar.raf,1,Maziar Rafaei,RESP,Daily,119
+70,nima.mob,1,Nima Mobininia,COW Recon,Daily,120
+71,nima.mob,1,Nima Mobininia,PRPO Recon,Daily,121
+72,nima.mob,1,Nima Mobininia,OLR TD-LTE Recon,Daily,122
+73,zohreh.gha,1,Zohreh Ghaenian,ACL-IN PRPO RECON,Daily,123
+74,marzieh.zo,1,Marzeih Zolghadrian,Recon for 2 different request at same time: SIMC and Bar/Unbar request,Daily,124
+75,FatemehBozorgi,2,Fatemeh Bozorgi,Recon for 2 different request at same time: Pre to Post Migration and SIMC,Weekly,125
+76,FatemehBozorgi,2,Fatemeh Bozorgi,Recon for 2 different request at same time: PRPO and PTCH,Weekly,126
+77,FatemehBozorgi,1,Fatemeh Bozorgi,Technical article mismatches,Daily,127
+78,marzieh.zo,1,Marzeih Zolghadrian,Technical article mismatches,Daily,128
+79,FatemehBozorgi,3,Fatemeh Bozorgi,For some request Remark and Command not updated correctly,Weekly,129
+80,marzieh.zo,3,Marzeih Zolghadrian,For some request Remark and Command not updated correctly,Weekly,130
+81,FatemehBozorgi,1,Fatemeh Bozorgi,Recon for 2 different request at same time: SIMC and Bar/Unbar request,Daily,131
+82,marzieh.zo,1,Marzieh Zolghadrian,Other Recon Number 1,NoIntervals,132

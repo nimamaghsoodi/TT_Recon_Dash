@@ -28,7 +28,9 @@ SECRET_KEY = 'svhne3p$62q7x*)4ixv=aavcb=69y#&sa-81p77%8^f1in8x80'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ ]
+#'0.0.0.0'
+#.dtl1.mtnirancell.ir
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -52,7 +54,14 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 ]
+
+MIDDLEWARE_CLASSES = (
+    # Simplified static file serving.
+    # https://warehouse.python.org/project/whitenoise/
+    'whitenoise.middleware.WhiteNoiseMiddleware',
+)
 
 # SESSION_EXPIRE_AT_BROWSER_CLOSE = True
 # SESSION_COOKIE_AGE = 20 # set just 20 seconds to test
